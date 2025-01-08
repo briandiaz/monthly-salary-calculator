@@ -1,0 +1,24 @@
+{
+  "name": "monthly-salary-calculator",
+  "version": "0.0.1",
+  "description": "Calculates salaries based on working days and holidays.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "salary-calculator": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc && node scripts/fix-extensions.cjs",
+    "start": "node dist/cli.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "undici": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/node": "^20.4.2",
+    "typescript": "^5.2.2"
+  }
+}
