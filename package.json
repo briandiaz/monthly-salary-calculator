@@ -2,6 +2,7 @@
   "name": "monthly-salary-calculator",
   "version": "0.0.1",
   "description": "Calculates salaries based on working days and holidays.",
+  "author": "Brian Díaz <brianediaz7@gmail.com>",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
